@@ -4,7 +4,7 @@ import React from "react";
 import Logo from "../../assets/Logo.svg";
 import "../Register/index.css";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
+
 
 function Register() {
   const [isLoading, setIsLoading] = useState(false);
