@@ -1,13 +1,13 @@
-.container {
+.container-register {
   width: 400px;
   margin: 0px auto;
+  height: 100vh;
 }
 
 .registerLogo {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
   margin-bottom: 50px;
 }
 

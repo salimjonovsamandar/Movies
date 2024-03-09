@@ -7,6 +7,7 @@ import Shape from "../../assets/Shape.svg";
 import tv from "../../assets/tv.svg";
 import search from "../../assets/search.svg";
 import user from "../../assets/user.svg";
+import { Link } from "react-router-dom";
 
 function Layout({ children }) {
   return (
@@ -14,13 +15,38 @@ function Layout({ children }) {
       <div className="siedBar">
         <div className="wrapperSidebar">
           <div className="logo">
-            <img width={32} src={Logo} alt="logo" />
+            <Link to={"/"}>
+              <img width={32} src={Logo} alt="logo" />
+            </Link>
           </div>
           <div className="icons">
-            <img width={20} src={Shape} alt="home icon" />
-            <img width={20} src={Movies} alt="Shape icon" />
-            <img width={20} src={tv} alt="Tv icon" />
-            <img width={20} src={Bookmark} alt="Book icon" />
+            <Link to={"/"}>
+              <img
+                className="sidebarIcon"
+                width={20}
+                src={Shape}
+                alt="home icon"
+              />
+            </Link>
+            <Link to={"/movies"}>
+              <img
+                className="sidebarIcon"
+                width={20}
+                src={Movies}
+                alt="Shape icon"
+              />
+            </Link>
+            <Link to={"/series"}>
+              <img className="sidebarIcon" width={20} src={tv} alt="Tv icon" />
+            </Link>
+            <Link to={"/bookmarks"}>
+              <img
+                className="sidebarIcon"
+                width={20}
+                src={Bookmark}
+                alt="Book icon"
+              />
+            </Link>
           </div>
         </div>
         <div className="user">

@@ -59,7 +59,7 @@ function Login() {
   }
 
   return (
-    <div className="container">
+    <div className="containerLogin">
       <div className="registerLogo">
         <img src={Logo} alt="Logo icon" />
       </div>

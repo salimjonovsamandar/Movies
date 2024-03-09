@@ -5,7 +5,6 @@ import Logo from "../../assets/Logo.svg";
 import "../Register/index.css";
 import { useNavigate } from "react-router-dom";
 
-
 function Register() {
   const [isLoading, setIsLoading] = useState(false);
   const navigate = useNavigate();
@@ -91,7 +90,7 @@ function Register() {
   }
 
   return (
-    <div className="container">
+    <div className="container-register h-dvh ">
       <div className="registerLogo">
         <img src={Logo} alt="Logo icon" />
       </div>

@@ -52,3 +52,8 @@
   outline: none;
   color: white;
 }
+
+.sidebarIcon:hover {
+  filter: invert(42%) sepia(60%) saturate(4332%) hue-rotate(338deg)
+    brightness(102%) contrast(97%);
+}

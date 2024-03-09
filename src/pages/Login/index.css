@@ -1,4 +1,4 @@
-.container {
+.containerLogin {
   width: 400px;
   margin: 0px auto;
 }
@@ -7,8 +7,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .formWrapper {
